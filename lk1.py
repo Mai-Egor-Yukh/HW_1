@@ -6,12 +6,13 @@ from statistics import mean
 #start1=time.time()
 #если данная строка находится в цикле, общее время работы увеличивается в 4,5 раза
 a=[randint(0,1500) for i in range(1000000)] 
-b=[0 for i in range(10)]
+
 Itime=[0 for f in range(100)]
 for t in range(0, len(Itime)):
     
     #a=[randint(0,1500) for i in range(1000000)]
 
+    b=[0 for i in range(10)]
     start=time.time()
 
     for i in range(0, (len(a))):
